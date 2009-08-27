@@ -64,7 +64,7 @@ def activatePloneLDAPPlugin(portal):
                 binduid_usage=1, rdn_attr='cn',
                 obj_classes='person,organizationalPerson,gites-proprietaire',
                 local_groups=0, use_ssl=0, encryption='SHA',
-                read_only=0, LDAP_server="clavius.affinitic.be", REQUEST=None)
+                read_only=0, LDAP_server="localhost", REQUEST=None)
 
         luf.manage_addLDAPSchemaItem("registeredAddress", "email",
                                      public_name="email")
