@@ -24,8 +24,6 @@ setup(name='gites.ldap',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'python-ldap',
-          'Products.PloneLDAP'
           # -*- Extra requirements: -*-
       ],
       entry_points="""
